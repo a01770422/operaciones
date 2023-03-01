@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="efectos.css">
+		<title>Operaciones</title>
+		<script src="prog02_op_botones.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<br>
+		<p class="encabezado">Operaciones básicas</p>
+		<table border="3" width="70%">
+			<form name="datos">
+				<tr align="center">
+					<td><p>indica el primer valor</p></td>
+					<td><input type="number" name="v1" size="20" min="0" max="15" class="campo"></td>
+				</tr>
+				<tr align="center">
+					<td><p>indica el segundo valor</p></td>
+					<td><input type="number" name="v2" size="20" min="0" max="15" class="campo"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<table width="100%">
+							<tr align="center">
+								<td><p>El resultado es</p></td>
+								<td><input name="opera" type="text" class="campo" disabled="true" style="background:lightgray;"></td>
+								<td><input name="res" type="number" class="campo" disabled="true" style="background:lightgray;"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<table width="100%">
+							<tr align="center">
+								<td><input type="button" name="b_suma" class="boton_azul" value="Suma" Onclick="suma()"></td>
+								<td><input type="button" name="b_resta" class="boton_azul" value="Resta" onclick="resta()"></td>
+								<td><input type="button" name="b_multiplicacion" class="boton_azul" value="Multiplicacion" onclick="multiplicacion()"></td>
+								<td><input type="button" name="b_division" class="boton_azul" value="Division" onclick="division()"></td>
+								<td><input type="reset" name="b_reset" class="boton_rojo" value="Reset"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+						
+
+
+
+
+
+
+
+
+			</form>
+		</table>
+		</center>
+	</body>
+</html>
